@@ -1,6 +1,6 @@
-PWD c:\Users\duong\OneDrive\Documents\GitHub\Multilingual-NLP
+PWD c:\Users\duong\OneDrive\Documents\GitHub\Multilingual-NLP\Proposal
 INPUT C:\Users\duong\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\duong\OneDrive\Documents\GitHub\Multilingual-NLP\Proposal.tex
+INPUT c:\Users\duong\OneDrive\Documents\GitHub\Multilingual-NLP\Proposal\Proposal.tex
 OUTPUT Proposal.log
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\acmart\acmart.cls
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\acmart\acmart.cls

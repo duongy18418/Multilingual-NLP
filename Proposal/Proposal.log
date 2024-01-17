@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.17)  17 JAN 2024 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.17)  17 JAN 2024 14:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal.tex
-(c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal.tex
+**c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal/Proposal.tex
+(c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal/Proposal.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
 (C:\Users\duong\AppData\Roaming\MiKTeX\tex/latex/acmart\acmart.cls
@@ -794,7 +794,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 Class acmart Warning: No city present for an affiliation.
 
 
-c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal.tex:44: Class acmart Error: No country present for an affiliation.
+c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal/Proposal.tex:44: Class acmart Error: No country present for an affiliation.
 
 See the acmart class documentation for explanation.
 Type  H <return>  for immediate help.
@@ -854,15 +854,15 @@ Package rerunfilecheck Info: Checksums for `Proposal.out':
 (rerunfilecheck)             After:  B382D328FABE4EB5632F26BD59207A4F;777.
  ) 
 Here is how much of TeX's memory you used:
- 20643 strings out of 474486
- 329699 string characters out of 5753570
- 1933528 words of memory out of 5000000
+ 20644 strings out of 474486
+ 329782 string characters out of 5753570
+ 1934528 words of memory out of 5000000
  42294 multiletter control sequences out of 15000+600000
- 643848 words of font info for 153 fonts, out of 8000000 for 9000
+ 643970 words of font info for 154 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,11n,131p,1063b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,131p,1072b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/duong/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/duong/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/duong/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/duong/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on Proposal.pdf (2 pages, 307933 bytes).
+Output written on Proposal.pdf (2 pages, 309411 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705510443.43231 "c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal.tex" "Proposal.pdf" "Proposal" 1705510444.86726 2
+["pdflatex"] 1705521360.70095 "c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal/Proposal.tex" "Proposal.pdf" "Proposal" 1705521362.11272 2
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm0900.tfm" 993062120 3156 6d4f5755d77638125f6f89de4f3bb757 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -161,10 +161,10 @@
   "C:/Users/duong/AppData/Roaming/MiKTeX/tex/latex/totpages/totpages.sty" 1127613446 7911 b07e668265cf485332abe582e7ed306e ""
   "C:/Users/duong/AppData/Roaming/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/duong/AppData/Roaming/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "Proposal.aux" 1705510444 1011 22827b93791093e2b6a4bc7c5c1304ce "pdflatex"
-  "Proposal.out" 1705510444 777 b382d328fabe4eb5632f26bd59207a4f "pdflatex"
-  "Proposal.tex" 1705510442 1339 beef22910fd7fcfd267107db95f549f6 ""
-  "c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal.tex" 1705510442 1339 beef22910fd7fcfd267107db95f549f6 ""
+  "Proposal.aux" 1705521361 1011 22827b93791093e2b6a4bc7c5c1304ce "pdflatex"
+  "Proposal.out" 1705521361 777 b382d328fabe4eb5632f26bd59207a4f "pdflatex"
+  "Proposal.tex" 1705521355 1369 ecc73410bfe202dc7f695c049c2663df ""
+  "c:/Users/duong/OneDrive/Documents/GitHub/Multilingual-NLP/Proposal/Proposal.tex" 1705521355 1369 ecc73410bfe202dc7f695c049c2663df ""
   (generated)
   "Proposal.aux"
   "Proposal.log"
