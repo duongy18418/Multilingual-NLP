@@ -221,6 +221,9 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\preprint\balance.sty
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\preprint\balance.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\Proposal.aux
+INPUT .\Proposal.aux
+INPUT Proposal.aux
 OUTPUT Proposal.aux
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\newtx\omlnxlmi.fd
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\newtx\omlnxlmi.fd
@@ -279,6 +282,12 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT .\Proposal.out
+INPUT .\Proposal.out
+INPUT Proposal.out
+INPUT Proposal.out
+INPUT .\Proposal.out
+INPUT .\Proposal.out
 OUTPUT Proposal.out
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -317,6 +326,22 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-ot1.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\nxlmi.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsy.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\nxlmia.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-utf8.def
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-utf8.def
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-utf8.def
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\libertine\LinBiolinumTB-tlf-t1.vf
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinBiolinumTB-tlf-t1--base.tfm
 INPUT C:\Users\duong\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -331,35 +356,23 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibert
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\enc\dvips\libertine\lbtn_nh77jq.enc
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\libertine\LinLibertineT-tlf-t1.vf
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1--base.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\newtx\ntxsy.vf
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\newtx\nxlmi.vf
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\LibertineMathMI.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\NewTXMI.tfm
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\stxscr.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\libertine\LinLibertineTI-tlf-t1.vf
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1--base.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\enc\dvips\libertine\lbtn_7grukw.enc
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\libertine\LinLibertineT-tlf-t1.vf
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1--base.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-utf8.def
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-utf8.def
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-utf8.def
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-ot1.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\nxlmi.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsy.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexx.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\nxlmia.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsym.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxsyc.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\libertine\LinLibertineTB-tlf-t1.vf
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1--base.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\vf\public\libertine\LinLibertineT-tlf-t1.vf
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1--base.tfm
 INPUT Proposal.aux
 INPUT .\Proposal.out
 INPUT .\Proposal.out
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\newtx\LibertineMathMI.pfb
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\newtx\LibertineMathMI.pfb
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinBiolinumTB.pfb
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinBiolinumTB.pfb
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinLibertineT.pfb
@@ -368,3 +381,5 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinLibe
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinLibertineTB.pfb
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\newtx\txsys.pfb
+INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\type1\public\newtx\txsys.pfb
