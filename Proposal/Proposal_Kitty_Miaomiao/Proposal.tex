@@ -1,0 +1,59 @@
+\documentclass[sigconf]{acmart}
+\pagestyle{fancy}
+\usepackage{mdwlist}
+\usepackage{amsmath}
+\fancyhead{}
+\settopmatter{printacmref=false, printfolios=false}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+
+\begin{document}
+\title{Natural Language Processing in Marketing Strategy for Chinese-Speaking Countries}
+\author{Kitty Duong}
+\affiliation{
+  \institution{University of Windsor}
+  \city{Windsor}
+  \country{Canada}
+}
+\email{duongy@uwindsor.ca}
+
+\author{Miaomiao Zhang}
+\affiliation{
+  \institution{University of Windsor}
+  \city{Windsor}
+  \country{Canada}
+}
+\email{zhang3s2@uwindsor.ca}
+
+\begin{abstract}
+Besides English, Chinese is listed as one of the most spoken languages in the world, with 21 countries considering it to be the mother tongue by part of their population. Due to its popularity, Chinese also has many varieties across multiple countries and regions. When an algorithm is developed for translation and multilingual usage, the developers will sometimes choose only one specific variant of Chinese to implement. However, given the growing popularity of global marketing strategy, companies need to adjust their marketing material multiple times when entering new markets, even though some of these markets use Chinese. Given the needs, we propose conducting a research project for a new algorithm using Natural Language Processing to make translating and adjusting marketing materials to multiple variants of Chinese more efficient.
+\end{abstract}
+\keywords{Chinese translation NLP, multilingual NLP, NLP}
+\maketitle
+
+\section{Introduction}
+With the growing and expanding of global marketing strategies, companies are looking for the most efficient way to utilize their resources when entering a new foreign market. To adjust the marketing material to tailor to a certain foreign market, companies will need to understand their target audiences, their culture, and most importantly, their language. However, given the diversity of some languages, even though some countries use the same language, they might use different written variants or dialects. One of the most widely used languages in the world is Chinese, which is popular for its diversity and has multiple speaking and writing variants. Thus, when companies want to enter a foreign market that uses Chinese, to save costs, they will convert their existing marketing material to the widely used traditional Chinese instead of the targeted market's variants of Chinese. However, even with the language pack, it will be difficult to make sure that the translated contents have correct structure, and grammar, and are culturally appropriated to the targeted market without a native involved. Our research to develop an algorithm using Natural Processing Language is targeted to help resolve the translation issue between languages, not just for business usage, but for daily life as well. The algorithm that will be developed for this research will be able to identify different variants of Chinese when given a document, and then translate the content using the correct language pack and make sure that the translated content meets a certain quality in both structure and grammar.
+
+\section{Motivation}
+In this research proposal, we propose to consider the importance of proper multilingual translation from cultural, economic, and social aspects.
+
+\subsection{Preserving Cultural Heritage}
+Chinese dialects are integral to the rich tapestry of Chinese culture and history. Translating dialects helps preserve linguistic diversity, ensuring that cultural nuances, traditions, and unique expressions are passed down to future generations.
+
+\subsection{Enhancing Communication}
+Dialects are often spoken in specific regions, creating barriers to communication for those who are not familiar with the local language. Translation facilitates better understanding and communication between speakers of different dialects, fostering collaboration and unity.
+
+\subsection{Meeting Specific Community Needs}
+Some communities predominantly use a specific dialect in their daily lives. Translating materials into these dialects addresses the unique needs and preferences of these communities, creating a more tailored and effective communication strategy.
+
+\subsection{Meeting Business and Commercial Needs}
+In regions where a specific dialect is prevalent, businesses can benefit from translating marketing materials, product information, and customer support into the local dialect. This approach enhances customer engagement and market penetration.
+
+\section{Problem Definition}
+Given a company based in the United States with a marketing strategy $\mathcal{M}$ for a product that has been successfully implemented in the US market, and a set of all written variants of the Chinese language $\mathcal{L}$. We present a global marketing strategy $g$, where $g \subset \mathcal{M}$, to implement for a set of countries $\mathcal{C}$ that use a variant of Chinese $v$, where $v \in \mathcal{L}$, as one of their languages. Our main objective is for a country $c \in \mathcal{C}$, to accurately determine $v$ to translate the content of $g$. For instance, Taiwan uses a variant of Chinese called Mandarin, we want to set the target language $v$ to Mandarin and translate $g$ using proper language structure and grammar.
+
+\section{Team Justification}
+Kitty Duong: Worked on Abstract, and problem definition.\\
+Miaomiao Zhang: Worked on introduction and motivation.
+
+\end{document}
