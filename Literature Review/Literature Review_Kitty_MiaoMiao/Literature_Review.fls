@@ -215,8 +215,6 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\libertine\t1linuxlibertine
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\libertine\t1linuxlibertinet-tlf.fd
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\libertine\t1linuxlibertinet-tlf.fd
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineT-tlf-t1.tfm
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\mdwtools\mdwlist.sty
-INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\mdwtools\mdwlist.sty
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\preprint\balance.sty
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\latex\preprint\balance.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -326,6 +324,9 @@ INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\newtx\ntxexa.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\fonts\tfm\public\libertine\LinLibertineTB-tlf-t1.tfm
+INPUT .\Literature_Review.bbl
+INPUT .\Literature_Review.bbl
+INPUT Literature_Review.bbl
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
 INPUT C:\Users\duong\AppData\Roaming\MiKTeX\tex\generic\stringenc\se-pdfdoc.def
