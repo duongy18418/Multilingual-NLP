@@ -8,7 +8,7 @@
 \settopmatter{printacmref=false}
 
 \begin{document}
-\title{Problems with Modern Translation Systems Between English and Chinese for Online Shopping Contents}
+\title{Machine Translating From English to Chinese for E-Commerce Product Categorization}
 \author{Kitty Duong}
 \affiliation{
   \institution{University of Windsor}
@@ -26,22 +26,34 @@
 \email{zhang3s2@uwindsor.ca}
 
 \begin{abstract}
-  
+    This paper provides an overview of the developing history, underlying concepts, and current state of the art in Machine Translation(MT). We will also explain how we will utilize and build up the current Machine Translation algorithms to improve the translation of E-Commerce Product Categorization from English to Chinese.
 \end{abstract}
-\keywords{Chinese translation, multilingual NLP, NLP}
+\keywords{E-Commerce Product Categorization, English-Chinese translation, Machine Translation, Multilingual NLP}
 \maketitle
 
-\section{User Community}
-
-\subsection{History}
+\section{Machine Translation (MT)} %Explain the definition of Machine Translation
+    
+    \subsection{History} 
+    %Sumarry when the idea of MT was first introduced. Section 2 of "Machine translation over fifty years" has a lot of info on this. "the translation memorandum" can also be used but might be hard to reference since it's not formal enough.
+    The origins of machine translation can be traced back to mid-20th century, around 1940s to 1950s. Scientists and researchers envisioned automated systems that could assist in translating documents for military and diplomatic purposes. In 1954, researchers collaborated to develop the "Georgetown-IBM Experiment Model 1." This system translated Russian sentences into English, focusing on scientific and technical texts, which is an example of rule-based machine translation approaches. After that, in 1966 U.S. government commissioned "The Automatic Language Processing Advisory Committee" (ALPAC) report, which was critical of the limited success achieved at that time and led to a reduction in funding for machine translation projects. In the 1990s, there was a shift towards statistical approaches to machine translation, instead of relying on explicit linguistic rules. The 2010s witnessed a significant breakthrough with the introduction of neural machine translation (NMT). NMT relies on artificial neural networks, particularly recurrent neural networks (RNNs) and later, transformer models.From 2017 till now, Transformer models, such as OpenAI's GPT and Google's BERT, have further advanced the capabilities of machine translation. These models leverage attention mechanisms and pre-training on large datasets to achieve state-of-the-art performance in various natural language processing tasks, including translation.
 
 \section{Prior Works}
+    Our main objective for this project will be analyzing datasets that include a list of all product categories from Amazon US, the most popular E-Commerce platform. Then by utilizing Machine Translation, translate these product categories from English to Chinese and vice versa. The result of this research will provide great support in developing the translation software we describe in our proposal.
+    
+    There are multiple different approaches when using Machine Translation software/algorithms, such as rule-based, statistical, neural, and hybrid machine translation. Each approach has its pros and cons but in general, all machine translations follow a basic two-step process. First, they decode the source language for the meaning of the original text, and then they encode that meaning to the target language\cite{Amazon_MT}.
 
-\subsection{Link Analysis}
+    \subsection{Rule-based Machine Translation}
+        Rule-based machine translation uses linguistic rules and bilingual dictionaries developed by language experts to translate content accurately\cite{Amazon_MT}. One of the earliest experiments utilizing Machine Translation happened in early 1954, known as the Georgetown-IBM Experiment, which was developed by utilizing the rule-based approach to machine translation. This experiment was a collaboration between IBM and Georgetown University led by Léon Dostert and Cuthbert Hurd. The final product of the experiment was able to demonstrate the translation of 49 sentences from Russian to English to the public\cite{Hutchins_2001}. The goal of this experiment was to figure out any grammatical and morphological problems with the algorithm and predict what is doable with the algorithm going forward. The experiment was planned to be conducted using a small number of sentences from organic chemistry and other general topics, with only 250 lexical items and six syntax rules for the computer to follow\cite{Hutchins_2004}. Another rule-based machine translation research was conducted at the University of Washington, led by Erwin Reifler. This research utilized the construction of multiple bilingual dictionaries, where the lexicographic information was used to select the equivalents lexical and solve grammatical problems without analyzing the syntax. From 1959, the results of this research were used by IBM to develop a Russian-English system used by the US Air Force for translation purposes for many years. However, Systran later replaced this system in 1970\cite{Hutchins_2001}.
 
-\subsection{Content Analysis}
+        Given that rule-based machine translation works by implementing different dictionaries, it can be customized to use for many different purposes, topics, and industries. However, due to the reliance on dictionaries and rules developed by the language experts, if the source texts include any misspelled words, or if the words do not exist in the dictionaries, the final translation will be incorrect. The only way to improve the accuracy of this approach requires the dictionaries to be updated constantly\cite{Amazon_MT}.
 
-\subsection{Temporal Analysis}
+    \subsection{Statistical Machine Translation}
+
+    \subsection{Neural Machine Translation}
+
+    \subsection{Hybird Machine Translation}
+
+\section{Position The Current Research (2024)} %Conclude with which of the 4 approaches we will be using for our algorithm
 
 \bibliography{Bibliography.bib}
 \bibliographystyle{plain}
