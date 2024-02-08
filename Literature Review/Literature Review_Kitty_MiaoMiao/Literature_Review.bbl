@@ -1,3 +1,17 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Amazon_MT}
+Amazon.
+\newblock What is machine translation? - neural machine translation explained - aws, Feb 2024.
+
+\bibitem{Hutchins_2001}
+W.~John Hutchins.
+\newblock Machine translation over fifty years.
+\newblock {\em Histoire Épistémologie Langage}, 23(1):7–31, 2001.
+
+\bibitem{Hutchins_2004}
+W.~John Hutchins.
+\newblock {\em The Georgetown-IBM Experiment Demonstrated in January 1954}, page 102–114.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2004.
 
 \end{thebibliography}
