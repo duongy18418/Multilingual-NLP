@@ -40,7 +40,7 @@
     The origins of machine translation can be traced back to the mid-20th century, around the 1940s to 1950s. Scientists and researchers envisioned automated systems that could assist in translating documents for military and diplomatic purposes. In 1954, researchers collaborated to develop the "Georgetown-IBM Experiment Model 1." This system translated Russian sentences into English, focusing on scientific and technical texts, which is an example of rule-based machine translation approaches. After that, in 1966, the U.S. government commissioned "The Automatic Language Processing Advisory Committee" (ALPAC) report, which was critical of the limited success achieved at that time and led to a reduction in funding for machine translation projects. In the 1990s, there was a shift towards statistical approaches to machine translation, instead of relying on explicit linguistic rules. The 2010s witnessed a significant breakthrough with the introduction of neural machine translation (NMT). NMT relies on artificial neural networks, particularly recurrent neural networks (RNNs) and later, transformer models. From 2017 till now, Transformer models, such as OpenAI's GPT and Google's BERT, have further advanced the capabilities of machine translation. These models leverage attention mechanisms and pre-training on large datasets to achieve state-of-the-art performance in various natural language processing tasks, including translation.
 
 \section{Machine Translation Methods} %Summaries and explain how the 4 methods have been used throughout history.
-    Our main objective for this project will be analyzing datasets that include a list of all product categories from Amazon US, the most popular E-Commerce platform. Then by utilizing Machine Translation, translate these product categories from English to Chinese and vice versa. The result of this research will provide great support in developing the translation software we describe in our proposal.
+    Our main objective for this project will be analyzing datasets that include a list of all product categories from Amazon US, the most popular E-Commerce platform. Then by utilizing Machine Translation, translate these product categories from English to Chinese and vice versa. In this section, we will be researching and explaining the different models of Machine Translation. The result of this research will provide great support in developing the translation software we describe in our proposal.
     
     There are multiple different approaches when using Machine Translation software/algorithms, such as rule-based, statistical, neural, and hybrid machine translation. Each approach has its pros and cons but in general, all machine translations follow a basic two-step process. First, they decode the source language for the meaning of the original text, and then they encode that meaning to the target language\cite{Amazon_MT}.
     
@@ -64,7 +64,7 @@
      \subsection{Hybrid Machine Translation(HMT)}
         Each Hybrid Machine Translation software utilizes multiple MT models, which greatly improves the effectiveness of only using a single translation model. HMT is a combination of RBMT, SMT, and NMT.
 
-    \subsection{Comparison}
+    \subsection{Comparison and Conclusion}
         \begin{table}[ht]
         \caption{Comparison of Machine Translation Approaches}
         \label{table:mt_comparison}
@@ -83,8 +83,6 @@
         \hline
         \end{tabular}
         \end{table}
-
-\section{Position The Current Research (2024)} %Conclude with which of the 4 approaches we will be using for our algorithm
 
 \bibliography{Bibliography.bib}
 \bibliographystyle{plain}
