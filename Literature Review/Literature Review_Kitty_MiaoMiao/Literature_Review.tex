@@ -2,6 +2,7 @@
 \pagestyle{fancy}
 \usepackage{url}
 \usepackage{hyperref}
+\usepackage{tabularx}
 \fancyhead{}
 \settopmatter{printacmref=false, printfolios=false}
 \setcopyright{none}
@@ -26,32 +27,62 @@
 \email{zhang3s2@uwindsor.ca}
 
 \begin{abstract}
-    This paper provides an overview of the developing history, underlying concepts, and current state of the art in Machine Translation(MT). We will also explain how we will utilize and build up the current Machine Translation algorithms to improve the translation of E-Commerce Product Categorization from English to Chinese.
+    This paper provides an overview of the history, underlying concepts, and current state of the art in Machine Translation(MT) models. We will also explain how we will utilize and build up the current Machine Translation algorithms to improve the translation of E-Commerce Product Categorization from English to Chinese.
 \end{abstract}
 \keywords{E-Commerce Product Categorization, English-Chinese translation, Machine Translation, Multilingual NLP}
 \maketitle
 
 \section{Machine Translation (MT)} %Explain the definition of Machine Translation
+    Machine translation is an automatic translating system from one language to another while utilizing Artificial Intelligence (AI) without human involvement. The current model of MT is not only a simple word-to-word translation, but it also analyzes the input texts to understand and recognize how words are being influenced by one another. As a result, produces the most accurate translation from one language to another as possible\cite{Amazon_MT}.
     
     \subsection{History} 
     %Sumarry when the idea of MT was first introduced. Section 2 of "Machine translation over fifty years" has a lot of info on this. "the translation memorandum" can also be used but might be hard to reference since it's not formal enough.
-    The origins of machine translation can be traced back to mid-20th century, around 1940s to 1950s. Scientists and researchers envisioned automated systems that could assist in translating documents for military and diplomatic purposes. In 1954, researchers collaborated to develop the "Georgetown-IBM Experiment Model 1." This system translated Russian sentences into English, focusing on scientific and technical texts, which is an example of rule-based machine translation approaches. After that, in 1966 U.S. government commissioned "The Automatic Language Processing Advisory Committee" (ALPAC) report, which was critical of the limited success achieved at that time and led to a reduction in funding for machine translation projects. In the 1990s, there was a shift towards statistical approaches to machine translation, instead of relying on explicit linguistic rules. The 2010s witnessed a significant breakthrough with the introduction of neural machine translation (NMT). NMT relies on artificial neural networks, particularly recurrent neural networks (RNNs) and later, transformer models.From 2017 till now, Transformer models, such as OpenAI's GPT and Google's BERT, have further advanced the capabilities of machine translation. These models leverage attention mechanisms and pre-training on large datasets to achieve state-of-the-art performance in various natural language processing tasks, including translation.
+    The origins of machine translation can be traced back to the mid-20th century, around the 1940s to 1950s. Scientists and researchers envisioned automated systems that could assist in translating documents for military and diplomatic purposes. In 1954, researchers collaborated to develop the "Georgetown-IBM Experiment Model 1." This system translated Russian sentences into English, focusing on scientific and technical texts, which is an example of rule-based machine translation approaches. After that, in 1966, the U.S. government commissioned "The Automatic Language Processing Advisory Committee" (ALPAC) report, which was critical of the limited success achieved at that time and led to a reduction in funding for machine translation projects. In the 1990s, there was a shift towards statistical approaches to machine translation, instead of relying on explicit linguistic rules. The 2010s witnessed a significant breakthrough with the introduction of neural machine translation (NMT). NMT relies on artificial neural networks, particularly recurrent neural networks (RNNs) and later, transformer models. From 2017 till now, Transformer models, such as OpenAI's GPT and Google's BERT, have further advanced the capabilities of machine translation. These models leverage attention mechanisms and pre-training on large datasets to achieve state-of-the-art performance in various natural language processing tasks, including translation.
 
-\section{Prior Works}
+\section{Machine Translation Methods} %Summaries and explain how the 4 methods have been used throughout history.
     Our main objective for this project will be analyzing datasets that include a list of all product categories from Amazon US, the most popular E-Commerce platform. Then by utilizing Machine Translation, translate these product categories from English to Chinese and vice versa. The result of this research will provide great support in developing the translation software we describe in our proposal.
     
     There are multiple different approaches when using Machine Translation software/algorithms, such as rule-based, statistical, neural, and hybrid machine translation. Each approach has its pros and cons but in general, all machine translations follow a basic two-step process. First, they decode the source language for the meaning of the original text, and then they encode that meaning to the target language\cite{Amazon_MT}.
-
-    \subsection{Rule-based Machine Translation}
-        Rule-based machine translation uses linguistic rules and bilingual dictionaries developed by language experts to translate content accurately\cite{Amazon_MT}. One of the earliest experiments utilizing Machine Translation happened in early 1954, known as the Georgetown-IBM Experiment, which was developed by utilizing the rule-based approach to machine translation. This experiment was a collaboration between IBM and Georgetown University led by Léon Dostert and Cuthbert Hurd. The final product of the experiment was able to demonstrate the translation of 49 sentences from Russian to English to the public\cite{Hutchins_2001}. The goal of this experiment was to figure out any grammatical and morphological problems with the algorithm and predict what is doable with the algorithm going forward. The experiment was planned to be conducted using a small number of sentences from organic chemistry and other general topics, with only 250 lexical items and six syntax rules for the computer to follow\cite{Hutchins_2004}. Another rule-based machine translation research was conducted at the University of Washington, led by Erwin Reifler. This research utilized the construction of multiple bilingual dictionaries, where the lexicographic information was used to select the equivalents lexical and solve grammatical problems without analyzing the syntax. From 1959, the results of this research were used by IBM to develop a Russian-English system used by the US Air Force for translation purposes for many years. However, Systran later replaced this system in 1970\cite{Hutchins_2001}.
+    
+    \subsection{Rule-based Machine Translation (RBMT)}
+        The methods of Rule-based Machine Translation are mainly rely on linguistic rules and dictionaries and based on explicit rules crafted by linguists. It improved over early handcrafted approaches by incorporating more sophisticated rules and increased rule coverage for better translation accuracy. The dataset was based on custom-built rule databases and bilingual dictionaries. 
+        
+        One of the earliest experiments utilizing Machine Translation happened in early 1954, known as the Georgetown-IBM Experiment, which was developed by utilizing the rule-based approach to machine translation. This experiment was a collaboration between IBM and Georgetown University led by Léon Dostert and Cuthbert Hurd. The experiment's final product demonstrated the translation of 49 sentences from Russian to English to the public\cite{Hutchins_2001}. The goal of this experiment was to figure out any grammatical and morphological problems with the algorithm and predict what is doable with the algorithm going forward. The experiment was planned to be conducted using a small number of sentences from organic chemistry and other general topics, with only 250 lexical items and six syntax rules for the computer to follow\cite{Hutchins_2004}. Another rule-based machine translation research was conducted at the University of Washington, led by Erwin Reifler. This research utilized the construction of multiple bilingual dictionaries, where the lexicographic information was used to select the equivalents lexically and solve grammatical problems without analyzing the syntax. From 1959, the results of this research were used by IBM to develop a Russian-English system used by the US Air Force for translation purposes for many years. However, Systran later replaced this system in 1970\cite{Hutchins_2001}.
 
         Given that rule-based machine translation works by implementing different dictionaries, it can be customized to use for many different purposes, topics, and industries. However, due to the reliance on dictionaries and rules developed by the language experts, if the source texts include any misspelled words, or if the words do not exist in the dictionaries, the final translation will be incorrect. The only way to improve the accuracy of this approach requires the dictionaries to be updated constantly\cite{Amazon_MT}.
 
-    \subsection{Statistical Machine Translation}
+    \subsection{Statistical Machine Translation (SMT)}
+        In terms of method, this category of Machine Translation utilizes statistical models trained on large bilingual corpora. Translation is generated based on learned probabilities of word and phrase occurrences. For the improvements, translation quality was enhanced by capturing statistical patterns. The handling of context and phrase-based translation was improved as well. Parallel corpora are used as the dataset for training, containing aligned sentences in source and target languages.
 
+        There are two main SMT methods, word-based and phrase-based. The idea of SMT was proposed in 1990 by Brown et al. In 1999, research was performed at Johns Hopkins, introducing an SMT toolkit called Egypt as the result. Two word-based SMT toolkits, GIZA and GIZA++, were also released shortly after. In 2003, the phrase-based SMT was introduced, which promised translation quality improvement. Based on the phrase-based method, the open-source MT system "Pharaoh" was released, and was later upgraded to "Moses". These toolkits and systems greatly improved the SMT adopted rate by the public. As a result, phrase-based SMT was used by Google to develop and launch its translation system in 2006, followed by other companies in the next few years\cite{Wang_Wu_He_Huang_Church_2021}.
+
+        Given the success of SMT, many researchers have begun to propose new models to further improve the performance of SMT, such as factored SMT, hierarchical SMT, and syntax-based SMT. However, SMT also introduced reordering issues when translating distant language pairs. This is due to SMT models utilizing log-linear models to implement multiple designed components, such as translation model, language model, etc\cite{Wang_Wu_He_Huang_Church_2021}.
+        
     \subsection{Neural Machine Translation}
+        Neural Machine Translation utilizes artificial neural networks, particularly recurrent neural networks (RNNs) and transformers, and end-to-end learning with direct mapping from source to target language. Compared with previous approaches, translation quality was significantly improved and long-range dependencies could be better handled. Large parallel corpora were used as the dataset for training neural networks.
+        
+     \subsection{Hybrid Machine Translation(HMT)}
+        Each Hybrid Machine Translation software utilizes multiple MT models, which greatly improves the effectiveness of only using a single translation model. HMT is a combination of RBMT, SMT, and NMT.
 
-    \subsection{Hybird Machine Translation}
+    \subsection{Comparison}
+        \begin{table}[ht]
+        \caption{Comparison of Machine Translation Approaches}
+        \label{table:mt_comparison}
+        \centering
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{Approach} &  \textbf{Improvements} & \textbf{Dataset} \\
+        \hline
+            RBMT &  Enhanced rule coverage & Custom-built rule databases \\
+        \hline
+            SMT &  Improved translation quality & Parallel corpora \\
+        \hline
+            NMT &  Superior context handling & Large parallel corpora \\
+        \hline
+            Hybrid &  Enhanced adaptability & Diverse datasets \\
+        \hline
+        \end{tabular}
+        \end{table}
 
 \section{Position The Current Research (2024)} %Conclude with which of the 4 approaches we will be using for our algorithm
 
