@@ -3,6 +3,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{tabularx}
+\usepackage[raggedrightboxes]{ragged2e}
 \fancyhead{}
 \settopmatter{printacmref=false, printfolios=false}
 \setcopyright{none}
@@ -32,17 +33,14 @@
 \keywords{E-Commerce Product Categorization, English-Chinese translation, Machine Translation, Multilingual NLP}
 \maketitle
 
-\section{Machine Translation (MT)} %Explain the definition of Machine Translation
+\section{Machine Translation (MT)}
     Machine translation is an automatic translating system from one language to another while utilizing Artificial Intelligence (AI) without human involvement. The current model of MT is not only a simple word-to-word translation, but it also analyzes the input texts to understand and recognize how words are being influenced by one another. As a result, produces the most accurate translation from one language to another as possible\cite{Amazon_MT}.
     
-    \subsection{History} 
-    %Sumarry when the idea of MT was first introduced. Section 2 of "Machine translation over fifty years" has a lot of info on this. "the translation memorandum" can also be used but might be hard to reference since it's not formal enough.
-    The origins of machine translation can be traced back to the mid-20th century, around the 1940s to 1950s. Scientists and researchers envisioned automated systems that could assist in translating documents for military and diplomatic purposes. In 1954, researchers collaborated to develop the "Georgetown-IBM Experiment Model 1." This system translated Russian sentences into English, focusing on scientific and technical texts, which is an example of rule-based machine translation approaches. After that, in 1966, the U.S. government commissioned "The Automatic Language Processing Advisory Committee" (ALPAC) report, which was critical of the limited success achieved at that time and led to a reduction in funding for machine translation projects. In the 1990s, there was a shift towards statistical approaches to machine translation, instead of relying on explicit linguistic rules. The 2010s witnessed a significant breakthrough with the introduction of neural machine translation (NMT). NMT relies on artificial neural networks, particularly recurrent neural networks (RNNs) and later, transformer models. From 2017 till now, Transformer models, such as OpenAI's GPT and Google's BERT, have further advanced the capabilities of machine translation. These models leverage attention mechanisms and pre-training on large datasets to achieve state-of-the-art performance in various natural language processing tasks, including translation.
+    \subsection{History}
+    The origins of machine translation can be traced back to the mid-20th century, around the 1940s to 1950s. Scientists and researchers envisioned automated systems that could assist in translating documents for military and diplomatic purposes. In 1954, researchers collaborated to develop the "Georgetown-IBM Experiment Model 1." This system translated Russian sentences into English, focusing on scientific and technical texts, an example of rule-based machine translation approaches. After that, in 1966, the U.S. government commissioned "The Automatic Language Processing Advisory Committee" (ALPAC) report, which was critical of the limited success achieved at that time and led to a reduction in funding for machine translation projects. In the 1990s, there was a shift towards statistical approaches to machine translation, instead of relying on explicit linguistic rules. The 2010s witnessed a significant breakthrough with the introduction of neural machine translation (NMT). NMT relies on artificial neural networks, particularly recurrent neural networks (RNNs) and later, transformer models. From 2017 till now, Transformer models, such as OpenAI's GPT and Google's BERT, have further advanced the capabilities of machine translation. These models leverage attention mechanisms and pre-training on large datasets to achieve state-of-the-art performance in various natural language processing tasks, including translation.
 
-\section{Machine Translation Methods} %Summaries and explain how the 4 methods have been used throughout history.
-    Our main objective for this project will be analyzing datasets that include a list of all product categories from Amazon US, the most popular E-Commerce platform. Then by utilizing Machine Translation, translate these product categories from English to Chinese and vice versa. In this section, we will be researching and explaining the different models of Machine Translation. The result of this research will provide great support in developing the translation software we describe in our proposal.
-    
-    There are multiple different approaches when using Machine Translation software/algorithms, such as rule-based, statistical, neural, and hybrid machine translation. Each approach has its pros and cons but in general, all machine translations follow a basic two-step process. First, they decode the source language for the meaning of the original text, and then they encode that meaning to the target language\cite{Amazon_MT}.
+\section{Machine Translation Methods}
+    There are multiple different approaches when using Machine Translation software/algorithms, such as rule-based, statistical, neural, and hybrid machine translation. Each approach has its pros and cons, but all machine translations generally follow a basic two-step process. First, they decode the source language for the meaning of the original text, and then they encode that meaning to the target language\cite{Amazon_MT}.
     
     \subsection{Rule-based Machine Translation (RBMT)}
         The methods of Rule-based Machine Translation are mainly rely on linguistic rules and dictionaries and based on explicit rules crafted by linguists. It improved over early handcrafted approaches by incorporating more sophisticated rules and increased rule coverage for better translation accuracy. The dataset was based on custom-built rule databases and bilingual dictionaries. 
@@ -56,32 +54,54 @@
 
         There are two main SMT methods, word-based and phrase-based. The idea of SMT was proposed in 1990 by Brown et al. In 1999, research was performed at Johns Hopkins, introducing an SMT toolkit called Egypt as the result. Two word-based SMT toolkits, GIZA and GIZA++, were also released shortly after. In 2003, the phrase-based SMT was introduced, which promised translation quality improvement. Based on the phrase-based method, the open-source MT system "Pharaoh" was released, and was later upgraded to "Moses". These toolkits and systems greatly improved the SMT adopted rate by the public. As a result, phrase-based SMT was used by Google to develop and launch its translation system in 2006, followed by other companies in the next few years\cite{Wang_Wu_He_Huang_Church_2021}.
 
-        Given the success of SMT, many researchers have begun to propose new models to further improve the performance of SMT, such as factored SMT, hierarchical SMT, and syntax-based SMT. However, SMT also introduced reordering issues when translating distant language pairs. This is due to SMT models utilizing log-linear models to implement multiple designed components, such as translation model, language model, etc\cite{Wang_Wu_He_Huang_Church_2021}.
+        Given the success, many researchers have begun to propose new models to improve the performance of SMT, such as factored SMT, hierarchical SMT, and syntax-based SMT. However, SMT also introduced reordering issues when translating distant language pairs. This is due to SMT models utilizing log-linear models to implement multiple designed components, such as translation model, language model, etc\cite{Wang_Wu_He_Huang_Church_2021}.
         
-    \subsection{Neural Machine Translation}
-        Neural Machine Translation utilizes artificial neural networks, particularly recurrent neural networks (RNNs) and transformers, and end-to-end learning with direct mapping from source to target language. Compared with previous approaches, translation quality was significantly improved and long-range dependencies could be better handled. Large parallel corpora were used as the dataset for training neural networks.
+    \subsection{Neural Machine Translation (NMT)}
+        Neural Machine Translation (NMT) represents a paradigm shift in machine translation, moving away from traditional rule-based and statistical methods. The core method involves the use of artificial neural networks, particularly sequence-to-sequence models, which take a sequence of words (source language) as input and generate another sequence of words (target language) as output. Neural Machine Translation also utilizes recurrent neural networks (RNNs) and transformers, and end-to-end learning with direct mapping from source to target language\cite{dabre_chu_kunchukuttan_2020}. Large parallel corpora were used as the dataset for training neural networks, which are collections of sentences in the source language paired with their translations in the target language.
         
-     \subsection{Hybrid Machine Translation(HMT)}
-        Each Hybrid Machine Translation software utilizes multiple MT models, which greatly improves the effectiveness of only using a single translation model. HMT is a combination of RBMT, SMT, and NMT.
+        In 2014, the idea of NMT was proposed by Bahdanau et al. and Sutskever et al., which was used to map the source language to a dense semantic representation and used an attention mechanism to get the final translation. At the same time, a new multilingual translation framework was introduced by Dong et al. utilizing NMT\cite{Wang_Wu_He_Huang_Church_2021}. Compared with previous approaches, translation quality was significantly improved. NMT allows for end-to-end learning, meaning that the model directly learns the mapping from source to target language without relying on explicit linguistic rules or intermediate representations. Besides, NMT models excel at capturing contextual information and dependencies between words, leading to more fluent and context-aware translations. Given the new idea and framework, many companies started to implement NMT in their software and platforms. For example, in 2015, the first large-scale NMT system was deployed by Baidu. In 2016, Google also introduced its new NMT system, which also led other companies to introduce their version of the NMT system as well\cite{Wang_Wu_He_Huang_Church_2021}.
+        
+     \subsection{Hybrid Machine Translation (HMT)}
+        Each Hybrid Machine Translation software utilizes multiple MT models, which greatly improves the effectiveness of only using a single translation model. HMT is a combination of RBMT, SMT, and NMT. Given the HMT model nature, there have been multiple system combinations purposed, developed, and implemented. Table 1 below presents the three main MT combinations: sentence, sub-sequential, and search graph; and some references for them\cite{Costa-jussà_Rapp_Lambert_Eberle_Banchs_Babych_2016}.
+        
+        \begin{table}[ht]
+            \centering
+            \caption{System combination summary\cite{Costa-jussà_Rapp_Lambert_Eberle_Banchs_Babych_2016}}
+            \label{table:hybird_compination}
+            \begin{tabular}{|p{1in}|p{2in}|}
+                \hline
+                \textbf{Granularity} & \textbf{References}\\
+                \hline
+                    \RaggedRight{Sentence-level} & \RaggedRight {Callison-Burch and Flournoy (2001), Nomoto (2004), Akiba et al. (2002), Costa-jussà et al. (2007), Formiga et al. (2013)}\\
+                \hline
+                     \RaggedRight{Subsentencial-level} & \RaggedRight {Jayaraman and Lavie (2005), Matusov et al. (2006), Sim et al. (2007), Rosti et al. (2008), He et al. (2008), Mellebeek and van Genabith (2006)}\\
+                \hline
+                    \RaggedRight{Graph-level} & \RaggedRight {Li et al. (2009), DeNero et al. (2010), Duan et al. (2011), Okita and van Genabith (2012)}\\
+                \hline
+            \end{tabular}
+        \end{table}
+        
 
     \subsection{Comparison and Conclusion}
+        Table 2 below summarizes the definitions and differences between the 4 Machine Translation approaches. For this project, we have decided to utilize NMT to develop, train, and implement our algorithm to improve upon the current machine translation system. Our main objective for this project will be analyzing datasets that include a list of all product categories from Amazon US, the most popular E-Commerce platform. Then by utilizing Machine Translation, translate these product categories from English to Chinese and vice versa. The result of this research will provide great support in developing the translation software we describe in our proposal. 
+        
         \begin{table}[ht]
-        \caption{Comparison of Machine Translation Approaches}
-        \label{table:mt_comparison}
-        \centering
-        \begin{tabular}{|l|l|l|l|}
-        \hline
-        \textbf{Approach} &  \textbf{Improvements} & \textbf{Dataset} \\
-        \hline
-            RBMT &  Enhanced rule coverage & Custom-built rule databases \\
-        \hline
-            SMT &  Improved translation quality & Parallel corpora \\
-        \hline
-            NMT &  Superior context handling & Large parallel corpora \\
-        \hline
-            Hybrid &  Enhanced adaptability & Diverse datasets \\
-        \hline
-        \end{tabular}
+            \centering
+            \caption{Comparison of Machine Translation Approaches}
+            \label{table:mt_comparison}
+            \begin{tabular}{|p{0.5in}|p{1.2in}|p{1.2in}|}
+                \hline
+                \textbf{Approach} &  \textbf{Improvements} & \textbf{Dataset} \\
+                \hline
+                    RBMT &  Enhanced rule coverage & Custom-built rule databases \\
+                \hline
+                    SMT &  Improved translation quality & Parallel corpora \\
+                \hline
+                    NMT &  Superior context handling & Large parallel corpora \\
+                \hline
+                    Hybrid &  Enhanced adaptability & Diverse datasets \\
+                \hline
+            \end{tabular}
         \end{table}
 
 \bibliography{Bibliography.bib}
