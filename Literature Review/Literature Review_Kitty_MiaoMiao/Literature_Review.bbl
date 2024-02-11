@@ -4,6 +4,16 @@
 Amazon.
 \newblock What is machine translation? - neural machine translation explained - aws, Feb 2024.
 
+\bibitem{Costa-jussà_Rapp_Lambert_Eberle_Banchs_Babych_2016}
+Marta~R. Costa-jussà, Reinhard Rapp, Patrik Lambert, Kurt Eberle, Rafael~E. Banchs, and Bogdan Babych.
+\newblock {\em Hybrid Approaches to Machine Translation}.
+\newblock Springer, Jul 2016.
+
+\bibitem{dabre_chu_kunchukuttan_2020}
+Raj Dabre, Chenhui Chu, and Anoop Kunchukuttan.
+\newblock A survey of multilingual neural machine translation.
+\newblock {\em ACM Computing Surveys}, 53(5):1–38, Oct 2020.
+
 \bibitem{Hutchins_2001}
 W.~John Hutchins.
 \newblock Machine translation over fifty years.

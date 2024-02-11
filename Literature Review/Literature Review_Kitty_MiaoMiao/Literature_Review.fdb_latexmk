@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex Literature_Review"] 1707505089 "Literature_Review.aux" "Literature_Review.bbl" "Literature_Review" 1707505090 0
-  "./Bibliography.bib" 1707504383 952 c5fbb8487fca5f786da65c934c37439b ""
+["bibtex Literature_Review"] 1707666551 "Literature_Review.aux" "Literature_Review.bbl" "Literature_Review" 1707666552 0
+  "./Bibliography.bib" 1707666533 1563 74897bd5f45edb53eb0c5c8716c0d0de ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Literature_Review.aux" 1707505090 2919 1038af288880d9ef69b3d9e4ac507c4b "pdflatex"
+  "Literature_Review.aux" 1707666551 3614 89c306fca6ec217424b129e12eed8bbf "pdflatex"
   (generated)
   "Literature_Review.bbl"
   "Literature_Review.blg"
   (rewritten before read)
-["pdflatex"] 1707505089 "/Users/yduong/Documents/GitHub/Multilingual-NLP/Literature Review/Literature Review_Kitty_MiaoMiao/Literature_Review.tex" "Literature_Review.pdf" "Literature_Review" 1707505090 0
-  "/Users/yduong/Documents/GitHub/Multilingual-NLP/Literature Review/Literature Review_Kitty_MiaoMiao/Literature_Review.tex" 1707504383 10162 c97be46d3a3e89eddc7909e97e0a24fd ""
+["pdflatex"] 1707666551 "/Users/yduong/Documents/GitHub/Multilingual-NLP/Literature Review/Literature Review_Kitty_MiaoMiao/Literature_Review.tex" "Literature_Review.pdf" "Literature_Review" 1707666552 0
+  "/Users/yduong/Documents/GitHub/Multilingual-NLP/Literature Review/Literature Review_Kitty_MiaoMiao/Literature_Review.tex" 1707666533 12964 5d961fc6340ff0385a178ac05e6fe7ef ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc" 1490131464 2921 8ca0eb0831f9bc5da080d3697cfe67bf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc" 1490131464 2933 9ad527ce78d7c5fa0a642dead095f172 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc" 1490131464 2934 a4a9158faed2e9e89c771b4e3b7fc12f ""
@@ -162,6 +162,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/centernot.sty" 1575152444 1640 c9cca60f81c5839b9a3e794d72c0b0a7 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/oberdiek/ifdraft.sty" 1575152444 1922 5bdcc31b0573e5e7f31c36f1b88b6a7d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/preprint/balance.sty" 1137110595 3366 d938ad2440edc1ea1c9042843580ec42 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1677362723 9903 09f80fdf0b87d68a09f505be77f1e9d0 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty" 1657483180 2405 93dca770d0598d835703b5d004a641b7 ""
@@ -177,10 +178,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1707504955 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1707504940 7883454 84737c91b2769fbfc7a6c617fce0469a ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Literature_Review.aux" 1707505090 2919 1038af288880d9ef69b3d9e4ac507c4b "pdflatex"
-  "Literature_Review.bbl" 1707505089 708 69e608f9a011884b7806ce90c431f25a "bibtex Literature_Review"
-  "Literature_Review.out" 1707505090 2087 1715cb5f81c6c01c67d9e582698f8bd3 "pdflatex"
-  "Literature_Review.tex" 1707504383 10162 c97be46d3a3e89eddc7909e97e0a24fd ""
+  "Literature_Review.aux" 1707666551 3614 89c306fca6ec217424b129e12eed8bbf "pdflatex"
+  "Literature_Review.bbl" 1707666551 1176 19a3040f19d38e6db928c4759c8cbee1 "bibtex Literature_Review"
+  "Literature_Review.out" 1707666551 1960 5a0327116fcb20631aef233bd2234e56 "pdflatex"
+  "Literature_Review.tex" 1707666533 12964 5d961fc6340ff0385a178ac05e6fe7ef ""
   (generated)
   "Literature_Review.aux"
   "Literature_Review.log"

@@ -4,45 +4,45 @@ The top-level auxiliary file: Literature_Review.aux
 The style file: plain.bst
 Database file #1: Bibliography.bib
 Warning--empty journal in Wang_Wu_He_Huang_Church_2021
-You've used 4 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            526 strings with 4640 characters,
-and the built_in function-call counts, 1258 in all, are:
-= -- 120
-> -- 49
+            541 strings with 5061 characters,
+and the built_in function-call counts, 1981 in all, are:
+= -- 182
+> -- 100
 < -- 1
-+ -- 21
-- -- 16
-* -- 69
-:= -- 202
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 19
++ -- 42
+- -- 34
+* -- 131
+:= -- 329
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 60
-empty$ -- 101
-format.name$ -- 16
-if$ -- 273
+cite$ -- 7
+duplicate$ -- 83
+empty$ -- 149
+format.name$ -- 34
+if$ -- 415
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 22
-num.names$ -- 8
-pop$ -- 30
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 32
+num.names$ -- 12
+pop$ -- 47
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 29
 quote$ -- 0
-skip$ -- 54
+skip$ -- 67
 stack$ -- 0
-substring$ -- 57
-swap$ -- 22
+substring$ -- 86
+swap$ -- 24
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
+type$ -- 20
 warning$ -- 1
-while$ -- 10
-width$ -- 5
-write$ -- 42
+while$ -- 15
+width$ -- 7
+write$ -- 63
 (There was 1 warning)
