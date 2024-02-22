@@ -4,14 +4,13 @@ import evaluate
 import pandas
 from sklearn.model_selection import train_test_split
 from datasets import Dataset, DatasetDict
-import torch
 
 tokenizer = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-600M", src_lang = 'en', tgt_lang = 'zh')
 model = AutoModelForSeq2SeqLM.from_pretrained("facebook/nllb-200-distilled-600M")
 
 #load the source dataset
-en_data = pandas.read_json("en-US.jsonl", lines=True)
-zh_data = pandas.read_json("zh-CN.jsonl", lines=True)
+en_data = pandas.read_json("./Code/en-US.json", lines=True)
+zh_data = pandas.read_json("./Code/zh-CN.json", lines=True)
 
 data = pandas.concat([en_data["utt"], zh_data["utt"]], axis=1, keys=["en", "zh"])
 train_data, test_data = train_test_split(data)
@@ -58,3 +57,4 @@ trainer = Trainer(
 )
 
 trainer.train()
+trainer.save_model('./Trained Model/FineTuned Model')
