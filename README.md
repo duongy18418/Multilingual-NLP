@@ -3,9 +3,6 @@
 ## 1. Project Overview
 This project aims to improve the current translation algorithm for any online shopping content translation from English to Chinese. The model developed for this project will be a fine-tuned version of the NLLB-200 translation model provided by Meta.
 
-1. NLLB-200 Overview] https://ai.meta.com/research/no-language-left-behind/
-2. NLLB-200 model: https://huggingface.co/facebook/nllb-200-distilled-600M
-
 ## 2. Prerequisite
 1. Install [Python 3.11.8](https://www.python.org/downloads/release/python-3118/)
 2. Install Requirements.txt ```pip install -r Requirements.txt```\
