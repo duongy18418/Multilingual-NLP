@@ -19,4 +19,4 @@ This project aims to improve the current translation algorithm for any online sh
 
 ## 4. Credits
 1. [Y Duong](https://www.linkedin.com/in/y-duong-880140195/)
-2. MiaoMiao Zhang
+2. [MiaoMiao Zhang](https://www.linkedin.com/in/miaomiao-zhang-49a6902b6/)
