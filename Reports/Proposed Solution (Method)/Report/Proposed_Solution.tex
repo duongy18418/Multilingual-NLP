@@ -21,6 +21,7 @@
 \usepackage{CJKutf8}
 \usepackage{booktabs} % For formal tables
 \usepackage{url}
+\usepackage{hyperref}
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
 \algtext*{EndWhile}% Remove "end while" text
@@ -116,9 +117,6 @@ In this experiment, we used the data from "Amazon\_Ecommerce\_Data\_2020.csv"\ci
 \end{algorithmic}
 \end{algorithm}
 
-
-
-
 \subsubsection{Fine-tune NLLB-200 Model}
 We utilized the API provided by MetaAI to set up an environment with any necessary dependencies and authentication for accessing the NLLB-200 model. Besides, we followed the tutorial from Hugging Face to use PyTorch Trainer to finetune the pre-trained model\cite{Hugging_Face}. Based on the configuration settings to specify the source (English) and target (Chinese) languages, we organized the product categories into batches for efficient processing, and then we sent batches to NLLB-200 for translation processing.
 
@@ -137,13 +135,13 @@ As for the further analysis for semantic equivalence, appropriateness of termino
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=1.1\linewidth]{Reports//Proposed Solution (Method)//Report/illustrate_figure.jpeg}
+    \includegraphics[width=1.1\linewidth]{illustrate_figure.jpeg}
     \caption{Finetune process architecture.}
     
 \end{figure}
 
-\bibliographystyle{ACM-Reference-Format}
-\bibliography{Bibliography.bib} 
+\bibliography{Bibliography.bib}
+\bibliographystyle{acmart}
 
 \end{document}
 
