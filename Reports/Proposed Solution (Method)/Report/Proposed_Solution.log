@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  25 FEB 2024 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.25)  25 FEB 2024 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -719,13 +719,12 @@ Package: balance 1999/02/23 4.3 (PWD)
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count319
 \l__pdf_internal_box=\box62
-)
-No file Proposed_Solution.aux.
+) (./Proposed_Solution.aux)
 \openout1 = `Proposed_Solution.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 42.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 42.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlnxlmi.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 42.
@@ -880,6 +879,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: Link coloring OFF on input line 42.
+ (./Proposed_Solution.out) (./Proposed_Solution.out)
 \@outlinefile=\write4
 \openout4 = `Proposed_Solution.out'.
 
@@ -1005,44 +1005,18 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 67.
-
-
-Package natbib Warning: Citation `Meta_AI_Research_Topic' on page 1 undefined on input line 67.
-
-
-Package natbib Warning: Citation `moslem_2023' on page 1 undefined on input line 67.
-
-
-Package natbib Warning: Citation `brazill_masters_munday_2017' on page 1 undefined on input line 71.
-
-
-Package natbib Warning: Citation `chang_2022' on page 1 undefined on input line 73.
-
-
-Package natbib Warning: Citation `Meta' on page 1 undefined on input line 79.
-
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 83.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 83.
-
-Package natbib Warning: Citation `PromptCloud' on page 1 undefined on input line 83.
-
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 87.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 92.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 100.
+ [1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_mmutss.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
 
-Package natbib Warning: Citation `Hugging_Face' on page 1 undefined on input line 121.
-
-[1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_mmutss.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]
-
-Package natbib Warning: Citation `palmer_wu_1995' on page 2 undefined on input line 132.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}] (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
@@ -1062,25 +1036,12 @@ File: UTF8.chr 2021/10/16 4.8.5
 File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
-)
-
-Package natbib Warning: Citation `window_treatment_definition_meaning_yourdictionary' on page 2 undefined on input line 132.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-
-Package natbib Warning: Citation `american_academy_of_pediatrics_2019' on page 2 undefined on input line 132.
-
-
-Package natbib Warning: Citation `koponen_2010' on page 2 undefined on input line 132.
-
-
-Package natbib Warning: Citation `difflib_helpers_for_computing-deltas_python_documentation' on page 2 undefined on input line 134.
-
-<illustrate_figure.jpeg, id=34, 951.555pt x 318.18875pt>
+<illustrate_figure.jpeg, id=73, 951.555pt x 318.18875pt>
 File: illustrate_figure.jpeg Graphic file (type jpg)
 <use illustrate_figure.jpeg>
 Package pdftex.def Info: illustrate_figure.jpeg  used on input line 138.
@@ -1093,12 +1054,31 @@ Overfull \hbox (24.11621pt too wide) in paragraph at lines 138--139
 
 Class acmart Warning: A possible image without description on input line 141.
 
-(./Proposed_Solution.bbl)
-
-Package natbib Warning: There were undefined citations.
-
+(./Proposed_Solution.bbl
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 43.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 54.
+LaTeX Info: Redefining \tempurl on input line 57.
+LaTeX Info: Redefining \tempurl on input line 68.
+LaTeX Info: Redefining \tempurl on input line 79.
+LaTeX Info: Redefining \tempurl on input line 91.
+LaTeX Info: Redefining \tempurl on input line 101.
+LaTeX Info: Redefining \tempurl on input line 112.
+LaTeX Info: Redefining \tempurl on input line 123.
+LaTeX Info: Redefining \tempurl on input line 134.
+LaTeX Info: Redefining \tempurl on input line 145.
+LaTeX Info: Redefining \tempurl on input line 157.
+LaTeX Info: Redefining \tempurl on input line 167.
+)
 
 Class acmart Warning: Some images may lack descriptions.
+
+
+Class acmart Warning: ACM reference format is mandatory 
+(acmart)              for papers over one page. 
+(acmart)              Please add printacmref=true to the 
+(acmart)              \settopmatter command..
 
 
 Package balance Warning: You have called \balance in second column
@@ -1106,42 +1086,27 @@ Package balance Warning: You have called \balance in second column
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 146.
-[2.2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc} <./illustrate_figure.jpeg>] (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+(/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-)
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 146.
- [3.2] (./Proposed_Solution.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
-
-Package rerunfilecheck Warning: File `Proposed_Solution.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Proposed_Solution.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B71D5F2510E838D06FAF050259D27321;738.
+) [2.2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_u7qtuy.enc} <./illustrate_figure.jpeg>] (./Proposed_Solution.aux)
+Package rerunfilecheck Info: File `Proposed_Solution.out' has not changed.
+(rerunfilecheck)             Checksum: DAF0019A726442A8B9AFB1D205A1D350;832.
  ) 
 Here is how much of TeX's memory you used:
- 23024 strings out of 476025
- 372760 string characters out of 5790017
- 1882388 words of memory out of 5000000
- 42479 multiletter control sequences out of 15000+600000
- 654409 words of font info for 315 fonts, out of 8000000 for 9000
+ 23145 strings out of 476025
+ 375648 string characters out of 5790017
+ 1883388 words of memory out of 5000000
+ 42544 multiletter control sequences out of 15000+600000
+ 658714 words of font info for 337 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  85i,12n,131p,1883b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on Proposed_Solution.pdf (3 pages, 445692 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/LibertineMathMI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/LibertineMathMI7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
+Output written on Proposed_Solution.pdf (2 pages, 505796 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 79922 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 84066 words of extra memory for PDF output out of 89155 (max. 10000000)
 

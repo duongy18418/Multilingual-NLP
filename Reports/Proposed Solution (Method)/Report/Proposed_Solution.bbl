@@ -1,0 +1,172 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{12}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[dif({[n.\,d.]})]%
+        {difflib_helpers_for_computing-deltas_python_documentation}
+ \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{difflib — Helpers for computing deltas}}.
+\newblock
+\urldef\tempurl%
+\url{https://docs.python.org/3/library/difflib.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Met(2024)]%
+        {Meta}
+ \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{facebook/nllb-200-distilled-600M · Hugging Face}}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/facebook/nllb-200-distilled-600M}
+\showURL{%
+\tempurl}
+
+
+\bibitem[win(2024)]%
+        {window_treatment_definition_meaning_yourdictionary}
+ \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Window-treatment Definition \& Meaning | YourDictionary}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.yourdictionary.com/window-treatment}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Brazill et~al\mbox{.}(2017)]%
+        {brazill_masters_munday_2017}
+\bibfield{author}{\bibinfo{person}{Shihua Brazill}, \bibinfo{person}{Michael Masters}, {and} \bibinfo{person}{Pat Munday}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Digital Commons @ Montana Tech ANALYSIS OF HUMAN VERSUS MACHINE TRANSLATION ACCURACY}}.
+\newblock
+\urldef\tempurl%
+\url{https://digitalcommons.mtech.edu/cgi/viewcontent.cgi?article=1226&context=grad_rsch}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Chang(2022)]%
+        {chang_2022}
+\bibfield{author}{\bibinfo{person}{Li-Ching Chang}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Chinese language learners evaluating machine translation accuracy}.
+\newblock \bibinfo{journal}{\emph{The JALT CALL Journal}} \bibinfo{volume}{18}, \bibinfo{number}{1} (\bibinfo{date}{Apr} \bibinfo{year}{2022}), \bibinfo{pages}{110–136}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.29140/jaltcall.v18n1.592}
+\showDOI{\tempurl}
+
+
+\bibitem[Face({[n.\,d.]})]%
+        {Hugging_Face}
+\bibfield{author}{\bibinfo{person}{Hugging Face}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Fine-tune a pretrained model}}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/docs/transformers/en/training}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Koponen(2010)]%
+        {koponen_2010}
+\bibfield{author}{\bibinfo{person}{Maarit Koponen}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Assessing Machine Translation Quality with Error Analysis}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.sktl.fi/@Bin/40701/Koponen_MikaEL2010.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Meta({[n.\,d.]})]%
+        {Meta_AI_Research_Topic}
+\bibfield{author}{\bibinfo{person}{Meta}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{No Language Left Behind}}.
+\newblock
+\urldef\tempurl%
+\url{https://ai.meta.com/research/no-language-left-behind/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Moslem(2023)]%
+        {moslem_2023}
+\bibfield{author}{\bibinfo{person}{Yasmin Moslem}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Fine-tuning Large Language Models for Adaptive Machine Translation}}.
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/pdf/2312.12740.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[of~Pediatrics(2019)]%
+        {american_academy_of_pediatrics_2019}
+\bibfield{author}{\bibinfo{person}{American~Academy of Pediatrics}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Ages \& Stages}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.healthychildren.org/english/ages-stages/pages/default.aspx}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Palmer and Wu(1995)]%
+        {palmer_wu_1995}
+\bibfield{author}{\bibinfo{person}{Martha Palmer} {and} \bibinfo{person}{Zhibiao Wu}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{Verb semantics for English-Chinese translation}.
+\newblock \bibinfo{journal}{\emph{Machine Translation}} \bibinfo{volume}{10}, \bibinfo{number}{1-2} (\bibinfo{date}{Mar} \bibinfo{year}{1995}), \bibinfo{pages}{59–92}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/bf00997232}
+\showDOI{\tempurl}
+
+
+\bibitem[PromptCloud(2020)]%
+        {PromptCloud}
+\bibfield{author}{\bibinfo{person}{PromptCloud}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Amazon Product Dataset 2020}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.kaggle.com/datasets/promptcloud/amazon-product-dataset-2020}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}
