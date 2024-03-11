@@ -6,3 +6,4 @@ scikit-learn
 evaluate
 pandas
 dataset
+tabulate
