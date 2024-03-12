@@ -7,3 +7,4 @@ evaluate
 pandas
 dataset
 tabulate
+deep_translator
