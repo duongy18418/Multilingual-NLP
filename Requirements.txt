@@ -8,3 +8,5 @@ pandas
 dataset
 tabulate
 deep_translator
+nltk
+matplotlib
