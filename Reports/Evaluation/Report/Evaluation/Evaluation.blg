@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Evaluation.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+The style file: ACM-Reference-Format.bst
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: bibliography.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in nllb
+Warning--no author, editor, organization, or key in nllb
+Warning--to sort, need author or key in nllb
+Warning--no key, author in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--no author, editor, organization, or key in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--to sort, need author or key in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--no key, author in best_web_scraping_services_provider_company_2021
+Warning--no author, editor, organization, or key in best_web_scraping_services_provider_company_2021
+Warning--to sort, need author or key in best_web_scraping_services_provider_company_2021
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Warning--no key, author in best_web_scraping_services_provider_company_2021
+Warning--no key, author in best_web_scraping_services_provider_company_2021
+Warning--no key, author in nllb
+Warning--no key, author in nllb
+Warning--no key, author in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--no key, author in nltk.align.bleu_score_nltk_3.0_documentation
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--no key, author in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--empty author in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--empty year in nltk.align.bleu_score_nltk_3.0_documentation
+Warning--no key, author in best_web_scraping_services_provider_company_2021
+Warning--empty author in best_web_scraping_services_provider_company_2021
+Warning--no key, author in nllb
+Warning--empty organization in nllb
+Warning--empty organization in nllb
+Warning--empty year in baccouri
+Warning--empty year in Hugging_Face
+Warning--empty organization in Hugging_Face
+Warning--no number and no volume in mathur_baldwin_cohn_2020
+Warning--page numbers missing in both pages and numpages fields in mathur_baldwin_cohn_2020
+Warning--page numbers missing in both pages and numpages fields in min_ross_elior_sulem_veyseh_thien_huu_nguyen_sainz_agirre_heintz_roth_2023
+Warning--empty publisher in moore_lewis_2010
+Warning--empty address in moore_lewis_2010
+Warning--empty publisher in papineni_roukos_ward_zhu_2002
+Warning--empty address in papineni_roukos_ward_zhu_2002
+Warning--empty organization in amazonPromptCloud
+You've used 16 entries,
+            5981 wiz_defined-function locations,
+            1573 strings with 20963 characters,
+and the built_in function-call counts, 14785 in all, are:
+= -- 1839
+> -- 375
+< -- 1
++ -- 121
+- -- 201
+* -- 961
+:= -- 1421
+add.period$ -- 73
+call.type$ -- 16
+change.case$ -- 97
+chr.to.int$ -- 16
+cite$ -- 62
+duplicate$ -- 1278
+empty$ -- 897
+format.name$ -- 159
+if$ -- 3489
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 28
+newline$ -- 219
+num.names$ -- 91
+pop$ -- 553
+preamble$ -- 1
+purify$ -- 210
+quote$ -- 0
+skip$ -- 495
+stack$ -- 0
+substring$ -- 1056
+swap$ -- 135
+text.length$ -- 134
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 366
+warning$ -- 34
+while$ -- 79
+width$ -- 0
+write$ -- 375
+(There were 34 warnings)

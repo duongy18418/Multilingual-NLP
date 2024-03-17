@@ -1,0 +1,262 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{16}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[nlt({[n.\,d.]})]%
+        {nltk.align.bleu_score_nltk_3.0_documentation}
+ \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.nltk.org/_modules/nltk/align/bleu_score.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[bes(2021)]%
+        {best_web_scraping_services_provider_company_2021}
+ \bibinfo{year}{2021}\natexlab{}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.promptcloud.com/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[nll(2024)]%
+        {nllb}
+ \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{facebook/nllb-200-distilled-600M · Hugging
+  Face}}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/facebook/nllb-200-distilled-600M}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Baccouri({[n.\,d.]})]%
+        {baccouri}
+\bibfield{author}{\bibinfo{person}{Nidhal Baccouri}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{deep-translator: A flexible free and unlimited python
+  tool to translate between different languages in a simple way using multiple
+  translators}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://pypi.org/project/deep-translator/#google-translate-1}
+\showURL{%
+\tempurl}
+
+
+\bibitem[DeMillo et~al\mbox{.}(1978)]%
+        {demillo_lipton_sayward_1978}
+\bibfield{author}{\bibinfo{person}{R.A. DeMillo}, \bibinfo{person}{R.J.
+  Lipton}, {and} \bibinfo{person}{F.G. Sayward}.}
+  \bibinfo{year}{1978}\natexlab{}.
+\newblock \showarticletitle{Hints on Test Data Selection: Help for the
+  Practicing Programmer}.
+\newblock \bibinfo{journal}{\emph{Computer}} \bibinfo{volume}{11},
+  \bibinfo{number}{4} (\bibinfo{date}{Apr} \bibinfo{year}{1978}),
+  \bibinfo{pages}{34–41}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/c-m.1978.218136}
+\showDOI{\tempurl}
+
+
+\bibitem[Face({[n.\,d.]})]%
+        {Hugging_Face}
+\bibfield{author}{\bibinfo{person}{Hugging Face}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Fine-tune a pretrained model}}.
+\newblock
+\urldef\tempurl%
+\url{https://huggingface.co/docs/transformers/en/training}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Flach(2019)]%
+        {flach_2019}
+\bibfield{author}{\bibinfo{person}{Peter Flach}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Performance Evaluation in Machine Learning: The
+  Good, the Bad, the Ugly, and the Way Forward}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the AAAI Conference on
+  Artificial Intelligence}}  \bibinfo{volume}{33} (\bibinfo{date}{Jul}
+  \bibinfo{year}{2019}), \bibinfo{pages}{9808–9814}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1609/aaai.v33i01.33019808}
+\showDOI{\tempurl}
+
+
+\bibitem[Gauch et~al\mbox{.}(2003)]%
+        {gauch_hwang_fick_2003}
+\bibfield{author}{\bibinfo{person}{Hugh~G. Gauch}, \bibinfo{person}{J.~T.~Gene
+  Hwang}, {and} \bibinfo{person}{Gary~W. Fick}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Model Evaluation by Comparison of Model‐Based
+  Predictions and Measured Values}.
+\newblock \bibinfo{journal}{\emph{Agronomy Journal}} \bibinfo{volume}{95},
+  \bibinfo{number}{6} (\bibinfo{date}{Nov} \bibinfo{year}{2003}),
+  \bibinfo{pages}{1442–1446}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2134/agronj2003.1442}
+\showDOI{\tempurl}
+
+
+\bibitem[Goldreich(2008)]%
+        {goldreich_2008}
+\bibfield{author}{\bibinfo{person}{Oded Goldreich}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Computational complexity}.
+\newblock \bibinfo{journal}{\emph{ACM SIGACT News}} \bibinfo{volume}{39},
+  \bibinfo{number}{3} (\bibinfo{date}{Sep} \bibinfo{year}{2008}),
+  \bibinfo{pages}{35}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1412700.1412710}
+\showDOI{\tempurl}
+
+
+\bibitem[Koishekenov et~al\mbox{.}(2023)]%
+        {koishekenov_berard_nikoulina_2023}
+\bibfield{author}{\bibinfo{person}{Yeskendir Koishekenov},
+  \bibinfo{person}{Alexandre Berard}, {and} \bibinfo{person}{Vassilina
+  Nikoulina}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Memory-efficient NLLB-200: Language-specific Expert
+  Pruning of a Massively Multilingual Machine Translation Model}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arXiv.2212.09811}
+\showDOI{\tempurl}
+
+
+\bibitem[Mathur et~al\mbox{.}(2020)]%
+        {mathur_baldwin_cohn_2020}
+\bibfield{author}{\bibinfo{person}{Nitika Mathur}, \bibinfo{person}{Timothy
+  Baldwin}, {and} \bibinfo{person}{Trevor Cohn}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Tangled up in BLEU: Reevaluating the Evaluation of
+  Automatic Machine Translation Evaluation Metrics}.
+\newblock \bibinfo{journal}{\emph{arXiv (Cornell University)}}
+  (\bibinfo{date}{Jun} \bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.48550/arxiv.2006.06264}
+\showDOI{\tempurl}
+
+
+\bibitem[Min et~al\mbox{.}(2023)]%
+  {min_ross_elior_sulem_veyseh_thien_huu_nguyen_sainz_agirre_heintz_roth_2023}
+\bibfield{author}{\bibinfo{person}{Bonan Min}, \bibinfo{person}{Hayley Ross},
+  \bibinfo{person}{Elior Sulem}, \bibinfo{person}{Ben Veyseh},
+  \bibinfo{person}{Thien~Huu Nguyen}, \bibinfo{person}{Oscar Sainz},
+  \bibinfo{person}{Eneko Agirre}, \bibinfo{person}{Ilana Heintz}, {and}
+  \bibinfo{person}{Dan Roth}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Recent Advances in Natural Language Processing via
+  Large Pre-Trained Language Models: A Survey}.
+\newblock \bibinfo{journal}{\emph{Comput. Surveys}} \bibinfo{volume}{56},
+  \bibinfo{number}{2} (\bibinfo{date}{Jun} \bibinfo{year}{2023}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3605943}
+\showDOI{\tempurl}
+
+
+\bibitem[Moore and Lewis(2010)]%
+        {moore_lewis_2010}
+\bibfield{author}{\bibinfo{person}{Robert Moore} {and} \bibinfo{person}{William
+  Lewis}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Intelligent Selection of Language Model
+  Training Data}}.
+\newblock 11–16 pages.
+\newblock
+\urldef\tempurl%
+\url{https://aclanthology.org/P10-2041.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Papineni et~al\mbox{.}(2002)]%
+        {papineni_roukos_ward_zhu_2002}
+\bibfield{author}{\bibinfo{person}{Kishore Papineni}, \bibinfo{person}{Salim
+  Roukos}, \bibinfo{person}{Todd Ward}, {and} \bibinfo{person}{Wei-Jing Zhu}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{BLEU: a Method for Automatic Evaluation of
+  Machine Translation}}.
+\newblock
+\urldef\tempurl%
+\url{https://aclanthology.org/P02-1040.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[PromptCloud(2020)]%
+        {amazonPromptCloud}
+\bibfield{author}{\bibinfo{person}{PromptCloud}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Amazon Product Dataset 2020}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.kaggle.com/datasets/promptcloud/amazon-product-dataset-2020}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sutrisno(2020)]%
+        {sutrisno_2020}
+\bibfield{author}{\bibinfo{person}{Adi Sutrisno}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{The Accuracy and Shortcomings of Google Translate
+  Translating English Sentences to Indonesia}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3747888}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}
