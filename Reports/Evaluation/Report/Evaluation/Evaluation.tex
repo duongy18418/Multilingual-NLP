@@ -99,16 +99,18 @@ In the result section of this report, we will provide a comprehensive analysis o
 
 \subsubsection{BLEU scores}
 The BLEU scores obtained for the E-commerce-Translation-Model demonstrate a slightly higher and more consistent performance than the baseline model, Google Translator. Across various categories of e-commerce products, the E-commerce-Translation-Model consistently yielded BLEU scores that were marginally superior to those of the baseline model. This suggests that the proposed model may better capture the nuances of product descriptions and translate them accurately from English to Chinese. Despite the modest improvements observed in BLEU scores\cite{mathur_baldwin_cohn_2020}, it's important to note that both models' translations fall significantly below the ideal score of 1, indicating that there is still room for improvement in terms of translation quality.
+\begin{figure}[t]
+\centering
+\captionsetup{justification=centering}
+\includegraphics[width=1.05\columnwidth]{Reports/Evaluation/Report/Evaluation/Images/res.png}
+\caption{Comparative performance on Baseline model and E-commerce model.}
+\end{figure}
 
 \subsubsection{Runtime comparison}
 In terms of runtime, the proposed model E-commerce-Translation-Model exhibited a substantially longer processing time compared to the baseline model. The E-commerce-Translation Model took approximately 287.72 seconds to complete the translation task, whereas the baseline model only required 22.18 seconds. This significant disparity in runtime raises concerns about the scalability and efficiency of the E-commerce-Translation-Model, particularly in real-world applications where speed and responsiveness are critical factors. Further investigation is warranted to identify the factors contributing to the increased computational complexity\cite{goldreich_2008} of the E-commerce-Translation-Model and explore strategies for optimizing its performance without compromising translation quality.
 
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=1.05\columnwidth]{Reports/Evaluation/Report/Evaluation/Images/res.png}
-\caption{Comparative performance on Baseline model and E-commerce model.}
-\end{figure}
+
 
 
 \bibliographystyle{ACM-Reference-Format}
